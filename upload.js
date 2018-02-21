@@ -26,7 +26,7 @@
         }        
         
         var fileReader = new FileReader();    
-        fileReader.addEventListener('load', displayImageViaFileRader)
+        fileReader.addEventListener('load', displayImageViaFileRader);
         fileReader.readAsDataURL(imageFile);
     }
 
